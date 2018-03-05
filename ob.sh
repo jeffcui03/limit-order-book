@@ -835,7 +835,7 @@ void Grape::onBookUpdate(Instrument* inst, int timestamp, const BkLevelNode* ord
                         continue;
                 }
 
-			    // Hao changed
+			    
 			    pending = getPendingOrders(inst, dir, tradePx, true);
 			    if (pending)
 			        continue;
